@@ -1,4 +1,4 @@
-# splitwise-
+# splitwise
 
 Steps to set up  
 
