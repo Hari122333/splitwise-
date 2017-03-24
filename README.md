@@ -1,12 +1,12 @@
 # splitwise-
 
-Steps to set up
+Steps to set up  
 
-sudo apt-get update
-  sudo apt-get install python-django
+sudo apt-get update  
+sudo apt-get install python-django  
 
-django-admin startproject projectname
-   cd projectname
+django-admin startproject projectname  
+cd projectname  
 
 *** Strongly Recommend Pycharm platform ****
 
