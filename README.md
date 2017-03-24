@@ -14,7 +14,9 @@ create database splitwise, change the username and password in the splitwise/set
 
 python makemigrations  
 python manage.py migrate  
-python manage.py createsuperuser  
+python manage.py createsuperuser      #<username> pathak #<password> !@#$%^&*
+#future help   
+python manage.py changepassword <user_name>  
 python manage.py runserver 0.0.0.0:8000  
 
 http://0.0.0.0:8000/admin/
