@@ -3,9 +3,13 @@
 Steps to set up 
 
 sudo apt-get update
-sudo apt-get install python-django
+  sudo apt-get install python-django
 
 django-admin startproject projectname
-cd projectname
+   cd projectname
+
+*** Strongly Recommend Pycharm platform ****
+
+
 
 
