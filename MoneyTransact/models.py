@@ -26,3 +26,4 @@ class Balance(models.Model):
 
     def __str__(self):
         return "giver : " + self.Giver + " taker : " + self.taker + " amount:  " + str(self.amount)
+

@@ -30,3 +30,20 @@ python manage.py shell
 --> Balance.objects.filter(taker='name')  
 
 
+setting.py change MYsql settings  
+form users : tut 34
+
+
+
+
+work to do 
+1) sign up / sign in frontend 
+2) your balance sheet  -> frontend (view)
+3) advanced form interactive 
+4) Splitwise python code 
+5) Database obtimization indexing : Alternate 1 
+									Alterante 2    Hashing 
+									Alternate 3	   B+ Tree 	
+
+									Time analysis 
+									
