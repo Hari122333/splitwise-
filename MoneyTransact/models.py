@@ -23,7 +23,9 @@ class Balance(models.Model):
     reason = models.CharField(max_length=250)
     place = models.CharField(max_length=50)
 
-
     def __str__(self):
         return "giver : " + self.Giver + " taker : " + self.taker + " amount:  " + str(self.amount)
 
+    def clean(self):
+        self.Giver = self.Giver.capitalize()
+        self.taker = self.taker.capitalize()
